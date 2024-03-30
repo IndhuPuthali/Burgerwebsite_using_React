@@ -1,0 +1,92 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: #f5ebdc;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .line-top{
+    height: 3px;
+    width: 35px;
+    background-color: black;
+    border-radius: 4px;
+    margin-bottom: 5px;
+ }
+ .line-middle{
+    height: 3px;
+    width: 35px;
+    background-color: black;
+    border-radius: 4px;
+    margin-bottom: 5px;
+ }
+ .line-bottom{
+    height: 3px;
+    width: 35px;
+    background-color: black;
+    border-radius: 4px;
+    margin-bottom: 5px;
+ }
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+   /* background-color:  rgb(255, 243, 222); */
+   background-color: #f5ebdc;
+   position: sticky;
+   top: 0;
+   flex: 1;
+
+} 
+.logo img{
+    width: 120px;
+    height: 60px;
+    mix-blend-mode: multiply;
+}
+#btn{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s all ease-in-out;
+
+}
+#btn:hover{
+    background-color: rgb(185, 1, 1);
+    cursor: pointer;
+}
+button{
+    margin-left: 20px;
+    background-color:maroon;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px; 
+
+}
+button:hover{
+    background-color: rgb(176, 18, 18);
+}
+
+@media only screen and (max-width: 768px) {
+    button{
+        display: none;
+    }
+    #btn{
+        display: block;
+    }
+    .nav-bar{
+        width: 100%;
+        border-bottom: 1px solid gray;
+    }
+}
+
+
+
+
